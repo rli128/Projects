@@ -10,35 +10,49 @@
 </head>
 <body>
     <header>
-        <h1>My Projects</h1>
+        <h1>Ricky's Projects</h1>
     </header>
+    <button onclick="location.href='About.html'" class="btn">About Me</button>
     <main>
+        
         <div class="project">
             <h2>Predictive Model: Recipe Predictor</h2>
-            <h3>Fall 2025</h3>
+            <h3>Fall 2024</h3>
             <ul>
                 <li>Developed a binary classification model to predict user-recipe interactions using a large-scale dataset (700k interactions) from Food.com, incorporating advanced data preprocessing and data analysis techniques</li>
                 <li>Engineered features from user and recipe attributes, leveraging popularity metrics, Jaccard similarity, and Cosine similarity, using dynamic thresholds for the similarity functions to optimize model performance</li>
-                <li>Achieved 79% accuracy on created testsets by improving on a baseline model, employing iterative testing</li>
-                <li>Documented findings, detailing the methodology, challenges, and performance metrics of the model in doc</li>
+                <li>Achieved 79% accuracy on test sets different from training set by improving on a baseline model, employing iterative testing</li>
+                <li>Documented findings, detailing the methodology, challenges, and performance metrics of the model in a <a href="https://docs.google.com/document/d/11d70F0-U2R2Duj4i3AYVjNjIrCMGBjr4YEiYqhzSFl4/edit?usp=sharing" target="_blank">comprehensive report</a></li>
             </ul>
             <a href="https://github.com/vbommisetty/Recipes/tree/hieu" target="_blank">View Project</a>
         </div>
 
         <div class="project">
             <h2>MicroProcessor Design</h2>
+            <h3>Fall 2024</h3>
             <ul>
                 <li>Processor created to convert 16-bit binary digit into 16-bit IEEE Standard 754 floating point number</li>
                 <li>Designed and implemented single-cycle processor architecture with a custom instruction set inspired by ARM/MIPS ISAs while only limited to 9-bit machine code length and 8-bit database.</li>
-                <li>Developed the instruction set architecture (ISA), including instruction formats, memory addressing modes, and a register file optimized for 8-bit data path</li>
+                <li>Developed the <a href="https://docs.google.com/document/d/1bh068P8FkaALni5w9bXz6-B-ScnPcjp_/edit?usp=sharing&ouid=106775309792863515356&rtpof=true&sd=true" target="_blank">instruction set architecture</a> (ISA), including instruction formats, memory addressing modes, and a register file optimized for 8-bit data path</li>
                 <li>Utilized Verilog to design, simulate, and integrate core processor components such as an ALU, register file, program counter, and control decoder, instruction memory.</li>
                 <li>Validated the processor's functionality using testbenches and running simulations via modelSim.</li>
             </ul>
-            <a href="https://drive.google.com/drive/folders/18Khfl8ZVJOYSTMF3cZRsw2CBal0rsJ?usp=sharing" target="_blank">View Documentation</a>
+            <a href="https://drive.google.com/drive/folders/18Khfl8ZVJOYSTMF3cZRsw2CBal0rsJ?usp=sharing" target="_blank">View Project</a>
+        </div>
+
+        <div class="project">
+            <h2>Gym Script</h2>
+            <h3>Summer 2024</h3>
+            <ul>
+                <li>Developed automated form-filling script using Puppeteer to fill out guest registration to help streamline check-in to the gym</li>
+                <li>Manipulated elements to fill text input, select radio buttons and other DOM elements using JavaScript to fill in personal info</li>
+            </ul>
+            <a href="https://github.com/rli128/Golds-Script" target="_blank">View Project</a>
         </div>
 
         <div class="project">
             <h2>Alarm Clock Digital Design</h2>
+            <h3>Spring 2024</h3>
             <ul>
                 <li>Used LogicWorks to create a fully functioning alarm clock and library of accompanying RTL circuits integrated in design</li>
                 <li>Integrated diverse components and subsystems, including clock modules, input controls, display interfaces, and alarm functionalities, to create a comprehensive alarm clock system that user allows user to change and set clock and alarm time</li>
@@ -50,6 +64,7 @@
 
         <div class="project">
             <h2>SHA-256 RTL Model</h2>
+            <h3>Spring 2024</h3>
             <ul>
                 <li>Using SystemVerilog created secure hashing algorithm encryption tool that turns any input into a hashing code w/ 256 length using Finite State Machine design process while also ensuring compliance with cryptographic hashing standards</li>
                 <li>Created testbench in order to test the effectiveness of hashing tool with error and success messages as well as measuring the efficiency of the RTL model and measuring runtime on different power voltages and core temps using ModelSim</li>
@@ -59,6 +74,7 @@
 
         <div class="project">
             <h2>DevSurf</h2>
+            <h3>Spring 2024</h3>
             <ul>
                 <li>Created developer journal in a group alongside 10 other members within a 5 week time period that allows users to safely save their notes and information for multiple projects as well as keep a list of tasks and milestones for each project</li>
                 <li>Used an ADR in order to document team meetings and decisions and followed CI/CD pipeline to efficiently work together with automated tests using Github Actions to ensure code quality and consistent code styling.</li>
@@ -69,16 +85,8 @@
         </div>
 
         <div class="project">
-            <h2>Gym Script</h2>
-            <ul>
-                <li>Developed an automated form-filling script using Puppeteer to fill out guest registration for gym I go to</li>
-                <li>Manipulated elements to fill text input, select radio buttons and other DOM elements using JavaScript</li>
-            </ul>
-            <a href="https://github.com/rli128/Golds-Script" target="_blank">View Project</a>
-        </div>
-
-        <div class="project">
             <h2>Huffman File Encoding</h2>
+            <h3>Fall 2023</h3>
             <uL>
                 <li>Developed lossless file compression tool in C++,  implementing a Huffman algorithm with use of binary trees/min-max heap</li>
                 <li>Successfully able to compress/decompress various file types including DNA sequences, binary files image files, and text files</li>
@@ -89,6 +97,7 @@
 
         <div class="project">
             <h2>Malloc and Free</h2>
+            <h3>Fall 2023</h3>
             <ul>
                 <li>Developed C library to dynamically allocate data in a simulated heap with the help of professor at UC San Diego</li>
                 <li>Used pointers and bit arithmetic to create blocks of data and allocate memory blocks paired with block headers and footers to store metadata using LSB</li>
@@ -96,6 +105,12 @@
             </ul>
             <a href="https://github.com/rli128/malloc" target="_blank">View Project</a>
         </div>
+    
+    <h3>Relevant Coursework:</h3>
+        <ul>
+            <li>CS: Data Structures and Object-Oriented Design, Systems Programming, Data Networks, Web Design, Computer Architecture, Web Mining and Recommender Systems, Computer Architecture, Operating Systems, Intro Embedded Systems</li>
+            <li>ECE: Analog Design, Circuits and System Analysis, Components and Circuits Lab, Linear Systems Fundamentals, RTL and FPGA Design, Digital Circuits, Transistor-Level Design</li>
+        </ul>
     </main>
     <footer>
     </footer>

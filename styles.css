@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #43455c;
     color: #333;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background:#2e3047;
+    color: #fdf6f6;
     padding: 10px 20px;
     text-align: center;
 }
@@ -17,51 +17,87 @@ h1 {
     margin: 0;
 }
 
+h3 {
+    margin: 0;
+    color: #fdf6f6;
+}
+
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
+    flex: 1;
+}
+
+section h2 {
+    color: #fdf6f6; /* Replace with your desired color for <h2> */
+}
+
+section p {
+    color: #fdf6f6; /* Replace with your desired color for <p> */
 }
 
 .project {
     border-radius: 8px;
-    background: #fff;
+    background: #3c3f58;
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .project h2 {
-    color: #444;
+    color: #fdf6f6;
     margin: 0 0 10px;
 }
 
 .project h3 {
-    color: #444;
+    color: #fdf6f6;
     font-size: 90%;
     margin: 0 0 10px;
 }
 
 .project p {
     line-height: 1.6;
+    color: #fdf6f6;
     margin: 10px 0;
 }
           
 .project a {
     text-decoration: none;
-    color: #007bff;
+    color: #dce8f4;
 }
           
 .project a:hover {
     text-decoration: underline;
 }
 
+ul li {
+    color: #fdf6f6;
+}
+
+.btn {
+    background-color: #2e3047;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+
+.btn:hover {
+    background-color: #252638;
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
-    color: #fff;
-    background: #333;
-    margin-top: 20px;
+    color: #fdf6f6;
+    background:  #43455c;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 50px;
 }
           
 @media (max-width: 600px) {
