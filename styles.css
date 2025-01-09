@@ -11,6 +11,7 @@ header {
     color: #fdf6f6;
     padding: 10px 20px;
     text-align: center;
+    margin: 50px 50px 50px;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h1 {
 }
 
 h3 {
-    margin: 0;
+    margin: 10px;
     color: #fdf6f6;
 }
 
@@ -29,12 +30,42 @@ main {
     flex: 1;
 }
 
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    max-width: 60%;
+}
+
+.text-content h2 {
+    margin: 10px 70px;
+}
+
+.text-content p {
+    margin: 10px 70px;
+}
+
+.content-container img {
+    max-width: 30%;
+    margin-right: 70px;
+}
+
 section h2 {
-    color: #fdf6f6; /* Replace with your desired color for <h2> */
+    color: #fdf6f6;
+    margin: 20px;
+}
+
+img {
+    float: right;
+    margin: 10px
 }
 
 section p {
-    color: #fdf6f6; /* Replace with your desired color for <p> */
+    color: #fdf6f6;
+    margin: 20px;
 }
 
 .project {
@@ -68,6 +99,15 @@ section p {
 }
           
 .project a:hover {
+    text-decoration: underline;
+}
+
+.text-content a {
+    text-decoration: none;
+    color: #dce8f4;
+}
+          
+.text-content a:hover {
     text-decoration: underline;
 }
 
